@@ -1,0 +1,391 @@
+@@ -112,7 +112,9 @@
+   48986217: 48986217
+   49036159: 49036159
+   49112723: 49112723
++  49215155: 49215155
+   49237961: 49237961
++  49290602: 49290602
+   49329958: 49329958
+   49365117: 49365117
+   49381349: 49381349
+@@ -208,6 +210,7 @@
+   Annotations: 12221178
+   ApiLogging: 22006889
+   ApiSampling_InventorySvc: 46096527
++  AppCompat_DataCollection_Backup_Policy: 49992001
+   AppCompat_DataCollection_Policy: 49679257
+   AppContainerConnectivityOnWindowsServerContainers: 38228554
+   AppContainerPFN: 39344389
+@@ -229,6 +232,7 @@
+   ApplicationGuardDownloadToHost: 13740217
+   AppraiserAdlPipeline_Instrumentation: 48084555
+   AppraiserSVChecks: 32064666
++  Appraiser_DataFile_NullAccessFix: 39382631
+   Appraiser_DecisionEvents_Cleanup: 49679448
+   Appraiser_MaxThread_RegOverride: 50947817
+   AppsInMoments: 40983231
+@@ -241,8 +245,6 @@
+   AttachHandlerContextFix: 45045633
+   AttributeManagerSingleton: 37586555
+   AttributeProvidersConcurrentRefresh: 39379499
+-  Audio_Drivers_Apx: 30813804
+-  Audio_Drivers_Apx_Streaming: 45307425
+   AugmentedEntryPoint: 36226054
+   AugmentedEntryPointBadging: 36718398
+   AutoGameMode: 11015710
+@@ -314,6 +316,7 @@
+   BluetoothProximityPlatform: 17815254
+   Brain_CheckAllCapabilities: 40466762
+   Brain_CheckStableForLock: 38648112
++  Brain_ClientAndServerP3Control: 51806567
+   Brain_Containment_DefaultDisallowP3SxS: 48798897
+   Brain_ExcludeSxSPackageOnLoadFailure: 38687670
+   Brain_NoDoubleP3SxSCheck_Containment: 49476961
+@@ -329,6 +332,7 @@
+   BugFix40347009_EmojiPanelWebViewDelayLoad: 40347009
+   BugFix40621950: 40621950
+   BugFix40823256: 40823256
++  BugFix43986681: 43986681
+   BugFix45063291_AndOtherSmallFixes: 45063291
+   BugFix46558439_InputPanelPreloadTimestamp: 46558439
+   BugFix49320135_CHSIME: 49320135
+@@ -366,6 +370,8 @@
+   CD2406VABugFixesForGE: 49777971
+   CD2406VAFixes: 40435357
+   CD2408VABugFixesForGE: 51610844
++  CD2408_VAFixesNi: 51005399
++  CD2408_VASDBF: 50835274
+   CDMLite2407: 51251641
+   CDMLiteAssetsValidation: 41172133
+   CDMLiteBackupSignals: 45027619
+@@ -522,6 +528,8 @@
+   Containment_UUS_DestructionOrder_39532528: 39532528
+   Containment_UUS_DoWorkLock_46732892: 46732892
+   Containment_UUS_DockedFlightSettingsAPIs_46898267: 46898267
++  Containment_UUS_DownloadTimeRemaining_47972559: 47972559
++  Containment_UUS_DowntimeCacheFix: 52045886
+   Containment_UUS_DowntimeRulesEngineRemoval_41776166: 41776166
+   Containment_UUS_ExpeditedAppsHonorWUZeroExhaust_45903863: 45903863
+   Containment_UUS_ExtendedErrorEndpoints_47919956: 47919956
+@@ -566,6 +574,7 @@
+   Containment_UUS_OfframpIpu_43619912: 43619912
+   Containment_UUS_OneSettingsRedocking_45264146: 45264146
+   Containment_UUS_OobeScansAsWuInteractive_51971811: 51971811
++  Containment_UUS_OutOfScopeUpdates_51459664: 51459664
+   Containment_UUS_ParallelFederation_42760154: 42760154
+   Containment_UUS_PersistUserInitiatedReboot_50157117: 50157117
+   Containment_UUS_ProductAcquisition_48703545: 48703545
+@@ -582,6 +591,7 @@
+   Containment_UUS_SLSCleanup_45717484: 45717484
+   Containment_UUS_SLSTransientErrors_46091987: 46091987
+   Containment_UUS_SSValidationPredictionRefresh_46359109: 46359109
++  Containment_UUS_STSEndpointCleanup_51790640: 51790640
+   Containment_UUS_ScanHotpatching_46346146: 46346146
+   Containment_UUS_ScanTransientErrors_46091930: 46091930
+   Containment_UUS_ServiceFailureResiliencyNewError_49484733: 49484733
+@@ -618,6 +628,7 @@
+   Containment_UUS_WatchdogActionTimeouts_45279571: 45279571
+   Containment_UUS_Watchdog_43469387: 43469387
+   Containment_UUS_WisePredictionsAPIChange_46077814: 46077814
++  Containment_UUS_WuProviderTelemetry_Events_51792371: 51792371
+   Containment_UUS_v14_49709355_MccFromKvShownAsFromPolicy: 49709355
+   Containment_UUS_v14_50267923_EmptyBufferAfterDecryption: 50267923
+   Containment_UUS_v14_HandleBandwidthLimitPoliciesSetToZero: 49104139
+@@ -985,6 +996,7 @@
+   GreenCharging: 45690917
+   GuidedSnapAssistContinuity: 33793580
+   HCIOEMFeatures: 43856907
++  HDRSustainabilityTelemetry: 51145502
+   HEATPenIdFix: 49669976
+   HEVCMTP: 17370187
+   HMDPresenceSensorSetting: 18907866
+@@ -1183,7 +1195,6 @@
+   MsiHashMismatchFix: 33280101
+   MsiReinstallModeOverrides: 45317952
+   MstscUninstallSupport: 44991397
+-  MultiChannelDirectToEars: 43806161
+   MultiDetachedOC: 46440044
+   MultiShellSupport: 45631568
+   MultiTaskingSettingsRestore: 37536520
+@@ -1197,6 +1208,7 @@
+   Muse_Settings_HideMosetupErrorInUx: 49424388
+   Muse_Settings_History_Grouping_Fix: 50138376
+   Muse_Settings_IPU_LoggingImprovement: 49442561
++  Muse_Settings_Invalid_Active_Hours: 51535837
+   Muse_Settings_Refactor: 40900256
+   Muse_Settings_Use_USO_Callbacks: 49726033
+   Muse_Settings_WUPauseSubtitleFix: 49452927
+@@ -1247,10 +1259,14 @@
+   NetworkListManager_DeadlockMonitor: 43203845
+   NetworkListManager_NetworkEventDebounce: 50033830
+   NetworkUX_Backport_10D: 50347043
++  NetworkUX_BugFix_48799594: 48799594
+   NetworkUX_BugFix_49097460: 49097460
+   NetworkUX_BugFix_49248062: 49248062
+   NetworkUX_BugFix_50239495: 50239495
+   NetworkUX_BugFix_50620853: 50620853
++  NetworkUX_BugFix_51769982: 51769982
++  NetworkUX_BugFix_51879549: 51879549
++  NetworkUX_TetheringSvcFuzzTests: 49538968
+   NewPropertiesOnSystemSettingEntryPoint: 49257236
+   NewToastNotification: 48557685
+   NiWin32kReliabilityJune2024: 50124594
+@@ -1327,6 +1343,7 @@
+   OverrideTasksIntervals: 39448330
+   PATKTI: 37007953
+   PBSysTrayReliabilityUpdates: 48930387
++  PCAIDSIntegrationFix: 52452917
+   PCAccessSetting: 6171364
+   PCH_USTEST: 33462698
+   PDE_HAADJSupport: 44924266
+@@ -1506,6 +1523,7 @@
+   SFS_CD_BugFixes_2406: 49766340
+   SFS_CD_BugFixes_2408: 51603439
+   SHINE_2408_Bugs: 50955614
++  SKAS: 50210837
+   SLAPIInternal: 46498851
+   SMI: 49385087
+   SMPNI: 50897220
+@@ -1554,6 +1572,7 @@
+   ServerDefaultLayout: 50582401
+   ServiceUIContentExperimentA: 19272907
+   ServiceUIContentExperimentB: 19272967
++  Servicing_AddingBackRestartCountdownPolicy_50179913: 50179913
+   Servicing_AllowOptionalContentPolicy_44944405: 44944405
+   Servicing_AppCrusherNullCrash: 45087736
+   Servicing_AppPickerFilePickerFix: 42178910
+@@ -1585,6 +1604,7 @@
+   Servicing_CameraWatchdogFullDumpGeneration: 49681943
+   Servicing_CancelPendingFileQueriesOnAppHidden_46471154: 46471154
+   Servicing_CdsMoreTipAdditionsAndTweaks: 48855414
++  Servicing_CellularDataNetworkFix: 51992667
+   Servicing_Changing_CipherSuite: 49415129
+   Servicing_CodeIntegrityManagementReporting: 50087056
+   Servicing_Color_PreventCrashOnQueuedRefresh: 50002538
+@@ -1611,6 +1631,8 @@
+   Servicing_DXGI_AutoSRUndoResQuirksIfNoPackage: 50085700
+   Servicing_DXGI_AutoSRVerticalTearing: 50085411
+   Servicing_DeadlinePolicyCombiningFairWarning_45815673: 45815673
++  Servicing_DeadlockOnConnectDisconnectLock: 49775453
++  Servicing_DeadlockOnSessionControlRelease: 51732198
+   Servicing_DefaultBundleFirstLaunch_49680909: 49680909
+   Servicing_DetailsPaneInvalidPointerTimeoutFix_47367186: 47367186
+   Servicing_DetectSqliteIndexCorruptionAndRecover_49252337: 49252337
+@@ -1624,6 +1646,7 @@
+   Servicing_DsbTelemetryFixes_50714696: 50714696
+   Servicing_Ec_Point_Formats: 49974212
+   Servicing_EdgePinningWizardScenarioFix: 46043353
++  Servicing_EditionQueryForContainers: 51576482
+   Servicing_EnableSearchSuspensionAPI_47391258: 47391258
+   Servicing_EndpointDlp_IgnoreEAv2ADS: 51711038
+   Servicing_EnergyDllMutableGlobals: 49910134
+@@ -1717,6 +1740,7 @@
+   Servicing_HibernateIdleSettings: 51246607
+   Servicing_HideSystemPackages: 50159440
+   Servicing_HotpatchWithReoffer: 51102786
++  Servicing_HydrateWithTargetVersion: 52480414
+   Servicing_IMEPadInitialization: 43955025
+   Servicing_ImplementTopNApps_46471166: 46471166
+   Servicing_IndexeddbMultiThreadFix: 44026119
+@@ -1733,6 +1757,7 @@
+   Servicing_LsaAutologgerFix: 51375872
+   Servicing_MDEGetImpersonationTokenFix: 39148892
+   Servicing_MDERestartableRegWatcher: 44531195
++  Servicing_MDMReaderForAutoRestartCountdownMinutes_50179913: 50179913
+   Servicing_MEMAddHostTermination: 45696455
+   Servicing_MFPresentAt_LoopingPlaybackStall: 49444563
+   Servicing_MFTEnumExCacheByPassForCamera: 51290874
+@@ -1784,6 +1809,7 @@
+   Servicing_PointsOfFlexibilityGleamFallbackTheme_50467861: 50467861
+   Servicing_PointsOfFlexibilityTipIncludesTelemetryId_50947270: 50947270
+   Servicing_PredictionToleranceFix: 50004740
++  Servicing_PrivacySettingsPageFlicker: 51408452
+   Servicing_ProgrammableTaskbarRunOnceCriteria: 49253617
+   Servicing_PromptDeferral: 49054611
+   Servicing_RacePowerOffGdi_CheckMonitorResolution: 50145438
+@@ -1814,6 +1840,7 @@
+   Servicing_ResetRecommendedAppFix: 42868018
+   Servicing_RestoreKeyboardFocusAfterUnpinning_45283883: 45283883
+   Servicing_RestrictedStandbyReference: 50307768
++  Servicing_ReturnScavengingFailure: 52324024
+   Servicing_SBUEFI_DBX2024: 49680318
+   Servicing_SFCOfflineArm64: 50394299
+   Servicing_SHQUNS_QuietPeriod: 49801380
+@@ -1844,6 +1871,7 @@
+   Servicing_SmartScreenHandlesClientRPCErrors: 48981039
+   Servicing_SnapEAAImmersiveShellHangFix: 49725434
+   Servicing_SnapFlyoutInstanceReentrancyHang: 34368400
++  Servicing_SpatialRefreshInQuickSettings: 52263073
+   Servicing_SpeakForMeAudioStreams: 44950080
+   Servicing_StageFilesIntoPendedContent: 50627414
+   Servicing_StagingRaceConditionFix: 50062843
+@@ -1897,6 +1925,7 @@
+   Servicing_WidgetsStaticSvg_46701147: 46701147
+   Servicing_WidgetsTelemetryImprovement_42503920: 42503920
+   Servicing_WorkQueueResetAndDeviceMFTEventInFlight: 50219960
++  Servicing_Wow64DefenderClientLoad: 51254211
+   Servicing_XAMLViewOnLoadedEventFix_46617862: 46617862
+   Servicing_XamlIslandDestroyCrash: 40191302
+   Servicing_XuidPartARestrictions: 50687111
+@@ -2121,6 +2150,7 @@
+   UseMsaAccountByDefault: 43760580
+   UseNewSearchAndCortanaApps: 19263623
+   UseOpenProcessForCompat: 33658374
++  UseProductionEndpoint: 28663185
+   UseRefactoredDictation: 11252401
+   UseSpeechPlatformSettings: 16976317
+   UseStateEndpoint: 37237894
+@@ -2159,6 +2189,7 @@
+   VAPS: 46108764
+   VASCINT: 48866648
+   VASDE: 39339190
++  VASDTSB: 52133830
+   VASDVAC: 43611424
+   VDSkipFullRes: 33812524
+   VLLRTest: 37169215
+@@ -2253,6 +2284,7 @@
+   WindowsBackupDimeDialogForPaidUsers: 45240241
+   WindowsBackupFKFM: 47466721
+   WindowsBackupFTU: 50072770
++  WindowsBackupFileTelemetry: 48063665
+   WindowsBackupFoldersApplicableCheckEnabled: 46718084
+   WindowsBackupM365CIU: 49761931
+   WindowsBackupM365CU: 49761922
+@@ -2289,6 +2321,7 @@
+   WorkplaceJoin_DualEnrollment: 38375658
+   Wpa3SoftAp: 40690418
+   WpcUapAppAllowList: 46627309
++  WppModeEnhancements: 49137590
+   WriteFlightInfoInQU: 40680682
+   WritePackageStateUsingTransactions: 23232883
+   WsxPacksRevoke: 38009604
+@@ -2375,6 +2408,9 @@
+   AppsFolderTaskbarIconLoading: 10998066
+   AppxSvcManagedInstallerSupport: 33102812
+   Arm64XProcessSupport: 29359153
++  Audio_Drivers_Apx: 30813804
++  Audio_Drivers_Apx_Streaming: 45307425
++  Audio_Drivers_HdAudBus_DmaAdapter: 45826198
+   AutoColorManagement_WideRollout: 36371531
+   AutomaticSignOnLockSetting: 11124079
+   BannerOpportunity: 13686160
+@@ -2518,6 +2554,7 @@
+   EnableExclusiveAppTransportOnHoloLens: 18263814
+   EnableIddCx110: 43960263
+   EnablePersonalizationLink: 8324675
++  EnableSpatialAudioHupOffload: 17969063
+   EnableTestModeForFileExplorerSSFtoCDSConversion: 20681411
+   EnableVirtualRefreshRateOnExternalMonitor: 32105186
+   EnhancedPalette: 30915588
+@@ -3046,6 +3083,7 @@
+   ModalWindowHelper_CUIHostLookup: 9850522
+   ModernCompressTo: 43984112
+   ModernCompressToZip: 46194714
++  MultiChannelDirectToEars: 43806161
+   MultiLayerHolographicRenderingAPI: 10700180
+   MultipersonApi: 46874610
+   MultipersonDdi: 44547958
+@@ -3416,6 +3454,7 @@
+   VDSLTest: 32266484
+   VTCC: 31682123
+   VTCUXD: 41167600
++  VacOcclusion: 8118562
+   ValidateClientOidLeakFixAndMitigation: 44509108
+   ValidateZombieServerOxidBindingHandleCleanup: 44513384
+   ViewClosingAPIs_CloseRequested_Desktop: 9996173
+@@ -3482,7 +3521,6 @@
+   AlwaysRepairSystemMetadataTLACEOnRegister: 50393476
+   AppxSip_Extensions_COMSafetyCheck: 49588529
+   BackdropFix: 41902433
+-  BatterySaverWnf: 48512403
+   BioEnrollmentVerifyUser: 47455729
+   BlockedShutdownCancelFocusStyle: 45856030
+   BugFixFinalizeCompositionOnFocusMove: 48058799
+@@ -3502,7 +3540,6 @@
+   CameraSettings_WindowsStudioPerfNotification: 48661595
+   CapsCheckDFlipOnMPO: 49821627
+   Capture_DisconnectFix: 50966150
+-  CheckPresenceCapable: 47834423
+   CheckRestrictedDescriptionNotNull: 49487355
+   ClearRegistrationRequiredBlockingPackageStatusesForOTR: 49822509
+   ClickSensitivity: 32720331
+@@ -3656,7 +3693,6 @@
+   NCRTest: 47938920
+   NSSTest: 49300650
+   NWMTest1: 39145991
+-  NotifyOobeChange: 50151666
+   OAMAWLE7dTest: 51162520
+   OnDemandUsesMostRecentlyStaged: 50294497
+   OptimizationsInApplistBackup: 46406346
+@@ -3671,7 +3707,6 @@
+   PhaseBSystemTrayReliabilityUpdates: 49406070
+   PhoneSourceIcon: 48361282
+   PredictionBiasCorrection: 49770345
+-  RemoveBatterySaverForWake: 49550391
+   RemoveEOLPackages: 48855637
+   RemoveLowPrioritySetTrustLabel: 49426184
+   RepairAppRegistration_Preserves_ApplicationData: 42969627
+@@ -3685,7 +3720,6 @@
+   SVQC: 46961347
+   SamsungMouseRenderingFix: 50480746
+   SearchBugs7d: 50264919
+-  SenQI2409: 49471425
+   Servicing_AddPackageRequeue: 51544517
+   Servicing_Bug40210734: 40210734
+   Servicing_Bug42967939: 42967939
+@@ -3714,6 +3748,7 @@
+   UpdateTaskBugfix: 46009404
+   UseFutureTaskQueue: 48085191
+   UseFutureTaskQueue_On_Ni: 48461840
++  UseOpenProcessForOLEACC: 49918560
+   UxSettingTest: 48433706
+   WSTF2: 49585260
+   WSTFTest: 48128019
+@@ -3721,6 +3756,7 @@
+   WdfUmdfNetDrvInSafeMode: 49006722
+   WdfUmdfScmOpNew: 50250067
+   WindowPrivacyAndUrl: 49310721
++  XamlIslandToolTipUiaFix: 48914366
+   YUV_DRM_Fix: 50302018
+   uDWMDeviceLost: 51869938
+ 
+@@ -3735,6 +3771,7 @@
+   AdditionalBrightnessBuckets: 37834701
+   AppSiloSparsePackageLaunch: 50947119
+   AutoDismissLockTelemetry: 48697684
++  BatterySaverWnf: 48512403
+   Bugfix_25385272: 25385272
+   Bugfix_46221769: 46221769
+   Bugfix_50552411: 50552411
+@@ -3748,6 +3785,7 @@
+   CameraMediaFrameSourceGroupLegacy: 50204276
+   CameraQI2409: 49628077
+   CameraWatchdogFingerprint: 49773418
++  CheckPresenceCapable: 47834423
+   ClearOverrideConfig_PackageRowNotFound: 49288999
+   CloudProviderLinkShareSourceAPI: 46850368
+   CopilotForImage: 51024982
+@@ -3807,6 +3845,7 @@
+   ManagedCameraSupport: 49575624
+   MediaQI2409: 49631999
+   MxProShPkgCont: 45374166
++  NotifyOobeChange: 50151666
+   OM: 48885351
+   PAD6420: 51535398
+   PAPLTest: 48513251
+@@ -3818,6 +3857,7 @@
+   RD602: 45046602
+   RFSFCTAOTest: 48950219
+   RSExWOA: 51206174
++  RemoveBatterySaverForWake: 49550391
+   RewriteInWindow: 50566996
+   SCFFATest: 50658022
+   SCFFMTest: 50657999
+@@ -3829,6 +3869,7 @@
+   SearchIndexerMultiSessionLockFix: 46500419
+   SearchWebView2_Master: 43998308
+   Search_Audio: 49112004
++  SenQI2409: 49471425
+   Servicing_StartMenuFixJapaneseSorting: 44143798
+   SettingsDel: 50564196
+   SystemSettingEntryPoint_EvaluatePolicy: 47992302
