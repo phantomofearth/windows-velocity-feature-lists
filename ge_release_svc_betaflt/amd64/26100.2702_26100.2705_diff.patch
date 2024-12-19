@@ -1,0 +1,35 @@
+@@ -256,6 +256,8 @@
+   54364227: 54364227
+   54431023: 54431023
+   54457369: 54457369
++  54479470: 54479470
++  54479475: 54479475
+   54504912: 54504912
+   54585411: 54585411
+   54605765: 54605765
+@@ -1520,6 +1522,7 @@
+   LaunchUriForResultsMeasureEvents: 52937186
+   LauncherCustomizationDisabledCheckFix: 53472551
+   LayoutFileFormat: 52869982
++  LcFeatureTuningConfig: 53308415
+   LightThemeAccentColorRedirectionForRail: 47326335
+   LightingWhenLidClosed: 16487091
+   LiteWhiteNTH: 33355279
+@@ -2076,7 +2079,7 @@
+   Servicing_BaselineAcquisitionMergingPackage: 50564213
+   Servicing_BatchedFeatureStateChange: 46359008
+   Servicing_BatchedFlightId: 52297073
+-  Servicing_BetweenBufferingDetectionFix: 47481501
++  Servicing_BetweenBufferingDetectionFix: 0
+   Servicing_BioThreadStackSize: 51799247
+   Servicing_BlackScreenOnS5ResumeWithDDSEnabled: 52060117
+   Servicing_BrowserHost_Fix_Ref_Count: 46062473
+@@ -2391,7 +2394,7 @@
+   Servicing_PrivacySettingsPageFlicker: 51408452
+   Servicing_ProgrammableTaskbarRunOnceCriteria: 49253617
+   Servicing_PromptDeferral: 49054611
+-  Servicing_ProtectedCodecSwitch: 50084915
++  Servicing_ProtectedCodecSwitch: 0
+   Servicing_RPCSSFirewallIntegration: 52087985
+   Servicing_RacePowerOffGdi_CheckMonitorResolution: 50145438
+   Servicing_RawImageMetadataFix: 54317680
