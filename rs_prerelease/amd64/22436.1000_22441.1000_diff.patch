@@ -1,0 +1,179 @@
+@@ -341,7 +341,6 @@
+   EnableNSkuAutoInstallWebExpPolicyChecks: 34897283
+   EnableSessionTerminateNotification: 24006437
+   EnableStartOnAFCOnWCOS: 16430322
+-  EnableValueBanner: 18299130
+   EnforceWIPForTokenBroker: 9720665
+   EnhancedBarriers: 32751694
+   EnhancedClipboard: 28554347
+@@ -452,13 +451,13 @@
+   InfracastPinSupport: 16026818
+   InfracastRtspTcpConnectionParametersSupport: 24807782
+   InfraredROIControlImprovement: 31225283
+-  InlineSwiftPair: 22449977
+   InputViewModernHostingAnimation: 29650567
+   InputViewModernHostingAnimationPart2: 31154011
+   InputVirtualization: 16291462
+   InsiderPreviewBranding: 14096858
+   InstallAttribution: 3222455
+   InstantQueuedLaunch: 28072593
++  IntelligentPwdless: 31496654
+   InteractiveCarry: 11276798
+   IrisServiceRefreshCtac: 28969680
+   IsoWrapperValidationLevel: 16726197
+@@ -501,7 +500,6 @@
+   M365AlertBanner: 29149697
+   MMXOptInThroughSettings: 11833844
+   MMXOptOut: 12246901
+-  MPSSupport: 19117564
+   MSAAADC: 32503442
+   MagnifierCaretUseFastTransition: 20496243
+   MagnifierWithinEdgesNoJitter: 20334694
+@@ -511,7 +509,6 @@
+   MeetNow_SkypeLaunchPolicyCheck: 28622690
+   MinuteZeroExperiences: 8497738
+   MiracastListenerAutoStart: 5419836
+-  MixedRealityCameraAppLaunchXAMLFilePicker: 18828283
+   MmpcRedirect: 23919662
+   MobilityExperience: 11824828
+   ModernEapOverLanUx: 31480468
+@@ -561,7 +558,6 @@
+   OnDemandFolderPopulation: 10647694
+   OnScreenKeyboardHandling: 29813098
+   OneDownloadSlotForLowPerf: 33061463
+-  OneDriveKFMBackupSetting: 19632002
+   OneSettingsClientRefreshCacheTask: 16860457
+   Onecore_Narrator_ConnectedTo_ISM: 18983602
+   OnlineEFS: 8167107
+@@ -607,7 +603,6 @@
+   PickerBackButton: 5324433
+   PinWebsiteAction: 11790758
+   PinWebsiteActionV2: 16419964
+-  PostponedReserveInstalls: 27236273
+   PowerAndBatteryPage: 30997927
+   PredictionEngine: 11418271
+   PreserveSecureAssessmentApp: 18212771
+@@ -627,7 +622,6 @@
+   ProvideFlightDataToWebapps: 17557290
+   PsaDynamic: 31746345
+   PsaInEnterprise: 30259475
+-  PsfxBasedCorruptionRepair: 31408828
+   QuickActionTemplates: 1195122
+   QuietHours: 10896550
+   QuietMomentPostOOBE: 32619713
+@@ -710,12 +704,10 @@
+   SUIWUTest: 30939958
+   SavePasswordSoftlandingEvent: 12261764
+   ScanModeScopeFinderOptimization: 32332812
+-  ScavengeSSUs: 23392744
+   ScoobeDooMLSideloadedFeatures: 24709006
+   ScoobeEligibilityAdditionalExclusions: 27299483
+   ScoobeEligibilityBasedOnML: 23059000
+   ScoobeEligibilityRedirection: 27336672
+-  ScoobeExperimentationPages: 23895822
+   ScoobeOnCleanInstallNoNetwork: 23865426
+   ScoobeOnLogonForUpgradedDevices: 23877894
+   ScoobeSettingsToggle: 20720716
+@@ -750,6 +742,7 @@
+   Servicing_AAR_DIRECTPOLICYCHECKS_24924568: 24924568
+   Servicing_Allow_SwitchToDesktop_25561487: 25561487
+   Servicing_BackgroundTaskDeferralLeakFix_29685610: 29685610
++  Servicing_BlankLockscreenSlideshowAutoColor_26202939: 26202939
+   Servicing_BopomofoCtrlKeyFix_28702631: 28702631
+   Servicing_BrowserReplacement_SpartanDeprecation: 31626602
+   Servicing_CHTShiftKeyUpFix_27240593: 27240593
+@@ -787,6 +780,7 @@
+   Servicing_TVMToastUX_29520200: 29520200
+   Servicing_TableTextImeCrashOnIE_27008582: 27008582
+   Servicing_TaskbarHeightChangesFeedsModeFix_32246009: 32246009
++  Servicing_ThirdPartyContextMenuCrash_19589924: 19589924
+   Servicing_UnintentionalCandidateDetermination_23012864: 23012864
+   Servicing_UnplateMicrosoftEdgeTiles_25482738: 25482738
+   Servicing_VoiceAssistantFriendlyString_34518611: 34518611
+@@ -882,7 +876,6 @@
+   ShowBrowserOnScoobe: 23563673
+   ShowBrowserOnValueBanner: 23531064
+   ShowConsentUXForTesting: 30940593
+-  ShowM365OnValueBanner: 29174495
+   SignInOptionsInPowerMenu: 30848624
+   SignInOptions_19H1Page: 14575813
+   SignalManager: 11423877
+@@ -1034,11 +1027,8 @@
+   VailContainerBsdr: 25343295
+   ValidateAMPPLonWCOS: 25726344
+   ValueBannerCDMLiteV2: 30785790
+-  ValueBannerEnableOneDrive: 19638738
+-  ValueBannerEnableRewards: 19638787
+   ValueBannerShowOneItemTemplate: 21969097
+   VelocityEligibilityUsingFlightingApi: 8776276
+-  VelocityUsageInSRUM: 13539786
+   ViewSwitchOnFlyoutClosed: 30222419
+   VirtualDesktopOptional: 31532520
+   VoiceAssistantPositioner: 20484887
+@@ -1060,7 +1050,6 @@
+   WFDiagnosticTracing: 16585608
+   WISEBatteryDischargeTimeEstimate: 26606149
+   WISE_EnergyBatteryProviders: 25932784
+-  WPRContainerIntegration: 14438726
+   WTest: 26193597
+   WUClient_AAD_device_ticket: 25386111
+   WUEventsLegacyStyle: 31597418
+@@ -1499,7 +1488,6 @@
+   MSRC63391_32291778: 32291778
+   MSRC63412_31512155: 31512155
+   MSRC63423_31519020: 31519020
+-  MSRC63449_31534184: 31534184
+   MSRC63567_31613541: 31613541
+   MSRC63572_31624009: 31624009
+   MSRC63672_31648931: 31648931
+@@ -1514,7 +1502,6 @@
+   MSRC63845_31768335: 31768335
+   MSRC63868_31808102: 31808102
+   MSRC63868_32291765: 32291765
+-  MSRC63913_31860193: 31860193
+   MSRC63969_31861616: 31861616
+   MSRC63982_32291754: 32291754
+   MSRC63988_32291752: 32291752
+@@ -1576,10 +1563,6 @@
+   MSRC64856_32491326: 32491326
+   MSRC64888_32517635: 32517635
+   MSRC64892_32519672: 32519672
+-  MSRC64898_32537371: 32537371
+-  MSRC64898_32537378: 32537378
+-  MSRC64899_32537439: 32537439
+-  MSRC64899_32537441: 32537441
+   MSRC64907_32540543: 32540543
+   MSRC64960_32657825: 32657825
+   MSRC64963_32698962: 32698962
+@@ -1607,6 +1590,7 @@
+   MSRC66417_34804392: 34804392
+   MSRC66425_34834369: 34834369
+   MTCATest: 29248010
++  MTests: 31073511
+   MWTest: 27923976
+   MakePowershellTheDefaultConsole: 6527944
+   MarshalByValue: 5195825
+@@ -1670,7 +1654,6 @@
+   ProductizeSpecializedDisplays: 23038916
+   ProjectedShadow: 10769683
+   PropertyStoreForHwnd: 23956599
+-  ProtectContents: 18861034
+   PublishActivityAnnotations: 18716070
+   PublishAnnotationsInLocalMode: 27141841
+   PublishFileActivitiesForUnassociatedViews: 19349712
+@@ -1859,6 +1842,7 @@
+   ExperimentalRefreshRates: 21320188
+   HVSUSSHTest: 32135017
+   PresentationAPIWithIFlip: 26888364
++  WSTest: 31070534
+   WatsonizeVAILFailures: 23352930
+ 
+ ## Disabled By Default:
+@@ -1881,7 +1865,6 @@
+   SecureCamera: 31101960
+   SetLockScreenImageAsDesktopBackground: 5458669
+   VAIL_Fake_Monitor_Projection: 21415082
+-  WindowManagementIDKOnDesktop: 30629240
+ 
+ ## Always Disabled:
+ 

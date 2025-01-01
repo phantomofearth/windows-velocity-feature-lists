@@ -1,0 +1,216 @@
+@@ -73,15 +73,7 @@
+   AssignedAccessSettingsAtomicConfiguration: 16615017
+   AssistGlyphIcon: 17333559
+   AsyncOpFileStartExperienceGetUserFile: 25461141
+-  Audio_Capture_EndpointType: 12041418
+-  Audio_Capture_StreamCategory: 11902719
+   Audio_MultiChannelRenderAttempted: 11831216
+-  Audio_Render_ChannelConfig: 12041542
+-  Audio_Render_EndpointType: 12041519
+-  Audio_Render_StreamCategory: 11902695
+-  Audio_Spatial_Render_EndpointType: 12035770
+-  Audio_Spatial_Render_SpatialMode: 12052500
+-  Audio_Spatial_Render_StreamCategory: 12062568
+   Audio_Spatial_VSSPlayed: 11901839
+   AutoCorrectionOneKeyReversion: 19697189
+   AutoFormfill_Consent_Icon: 17558297
+@@ -122,8 +114,8 @@
+   BoundlessMesh: 7660207
+   BreakOnIDDTimeout: 23648613
+   BrokeredCreateFile2: 5569419
+-  BrowserDeclutteringOnValueBanner: 24633056
+   BrowserFramePerfAnalysisImprovements: 15506838
++  BrowserSearchDefaultOnValueBanner: 25707299
+   BthA2dpAbsoluteVolume: 153764
+   BufferCommands: 7471763
+   CAADJCSP: 20396543
+@@ -266,7 +258,9 @@
+   DesktopFidoMsaPinReset: 23257924
+   DesktopFidoMsaWebSignIn: 23257912
+   DesktopLocationTriggering: 13909636
++  DesktopToastViewAlwaysShowDismiss: 23447524
+   DesktopToastViewWithAtrribution: 23454425
++  DesktopUniversalSymbolView: 25980413
+   DetailedAppInv: 24645733
+   DevEnableValueBannerForMSFTInternal: 18863954
+   DevModeInternal: 7631201
+@@ -392,6 +386,7 @@
+   ForceReactiveAudioOnlyMode: 9031501
+   ForcedPasswordlessPlatform: 21331712
+   FullereneRDP: 24120282
++  FusionPKTValidation: 25815393
+   GIPIND: 17505606
+   GIPJPN: 18333221
+   GIPKOR: 23660839
+@@ -407,6 +402,7 @@
+   HMDPresenceSensorSetting: 18907866
+   HackAroundMouseVelocityBug: 8021938
+   HamDependencyGraph: 11801082
++  HandUpdatesIgnoreRenderingReports: 25677310
+   HandleLaunchDocumentFailure: 16708230
+   HangDetectionThresholdTweaking: 16046125
+   HardwareKeyboardInlineMultiWordPredictionScoreDiffExperiments: 20806132
+@@ -486,6 +482,7 @@
+   KeyPressAnimation: 23503111
+   KeyRectForSpace: 23503412
+   KeyRectForSpaceAndOthers: 25264871
++  KeyRectFromStandardKeyboard: 26090092
+   KeyboardEnhancedTelemetry: 20066674
+   KioskPositioner: 18518788
+   LSA_SynchronousProfileLoaded: 23534517
+@@ -528,6 +525,7 @@
+   MixedRealityCameraAppLaunchXAMLFilePicker: 18828283
+   MmpcRedirect: 23919662
+   ModernAppBlocking: 23445640
++  ModernUXStyleDesktopTouchKeyboard: 23502698
+   Modern_Disk_Management_Link: 23257398
+   Modern_Storage_Spaces_Link: 25253244
+   ModifiedIndicator: 19420927
+@@ -557,6 +555,7 @@
+   NewAutoPlayPerSiteSetting: 17584889
+   NewDevicesFlowConnectUI_Desktop: 23673473
+   NewDevicesFlowConnectUI_WCOSCDG: 20447509
++  NewImeOnImeOffKey_TSF1: 25888806
+   NewOutputPresenter: 21185041
+   NewShell: 17094319
+   NewTabPageHostComponent: 14445663
+@@ -766,6 +765,7 @@
+   ShellEyeTargeting: 23498975
+   ShellLauncherRepository: 2872564
+   ShellOneHandedSystemGesture: 20702577
++  ShellSmoothHandInput: 24136773
+   ShellTwoHandedSystemGesture: 20897646
+   ShortWatchdogTimer: 14067660
+   ShowBrowserOnScoobe: 23563673
+@@ -803,6 +803,7 @@
+   StoreFormsTelemetry: 16569109
+   StubsBypassQueue: 25699808
+   SupportCDMInDefaultUser: 9300179
++  SupportExtendedModifierCombos: 25582548
+   SurfaceHubProximalAppLaunch: 8958021
+   SurfaceHubRemoveSidebars_Shell: 9999962
+   SurfaceHub_RemoveSidebars: 10169763
+@@ -831,7 +832,7 @@
+   TaskManagerHealthTelemetry: 18631046
+   TaskManagerSetDefaultStartupTab: 19349505
+   TaskbarTeaseAndToast: 6483462
+-  TestInProductionDynamicAPI: 24755302
++  TestInProductionDynamicAPI: 25667436
+   TestOnlyDisableNamedPipeScoping: 24772160
+   TipCSamplingOverride: 23821219
+   TipKernelBaseABI: 23210870
+@@ -871,7 +872,6 @@
+   UseDDisplayOutputOnSydney: 15983669
+   UseDDisplayPlaneInMirage: 20541461
+   UseEyeGazeForGazeCursor: 17666879
+-  UseGraphicsCaptureAPI: 22984311
+   UseHeadGazePitchAdjustmentRadians: 21073599
+   UseMLModelForToastTiming: 20804974
+   UsePackagedFolderAssetXAMLFileExplorer: 11921204
+@@ -917,6 +917,7 @@
+   WFD_XboxConnected: 11886935
+   WFDiagnosticTracing: 16585608
+   WPRContainerIntegration: 14438726
++  WSL_Installer: 25330707
+   WUClient_AAD_device_ticket: 25386111
+   WVDFileContentIndexing: 22441124
+   WamXboxGuestAccountSupport: 19021471
+@@ -1194,6 +1195,7 @@
+   HardwareDRMMultithreadedKeyExchange: 15488212
+   HeadsetSleepTimeoutSettings: 25466307
+   HelloSettingsImprovements: 5832397
++  HelloSplitViewAcrossDisplays: 20770583
+   HeyCortanaOOBEWoV: 11516923
+   HideUninstallVerbForNonUninstallablePreinstalledAppsOnWcos: 24669091
+   HideUwpEdgeFromAppListIfWin32EdgePresent: 23035442
+@@ -1346,7 +1348,6 @@
+   MSRC54554_23810758: 23810758
+   MSRC54581_23775006: 23775006
+   MSRC54643_23866277: 23866277
+-  MSRC54652_24585180: 24585180
+   MSRC54685_23916413: 23916413
+   MSRC54711_23921505: 23921505
+   MSRC54733_23928498: 23928498
+@@ -1376,7 +1377,6 @@
+   MSRC55458_24407558: 24407558
+   MSRC55467_24416264: 24416264
+   MSRC55508_24429800: 24429800
+-  MSRC55518_24430644: 24430644
+   MSRC55528_24445103: 24445103
+   MSRC55529_24445147: 24445147
+   MSRC55530_24445181: 24445181
+@@ -1406,7 +1406,6 @@
+   MSRC55939_24599394: 24599394
+   MSRC55942_25772602: 25772602
+   MSRC55948_24599853: 24599853
+-  MSRC56057_24634521: 24634521
+   MSRC56074_24641601: 24641601
+   MSRC56078_24642392: 24642392
+   MSRC56086_24648513: 24648513
+@@ -1427,7 +1426,6 @@
+   MSRC56348_24862075: 24862075
+   MSRC56353_24864057: 24864057
+   MSRC56389_24878386: 24878386
+-  MSRC56399_24880848: 24880848
+   MSRC56442_24910167: 24910167
+   MSRC56451_24922432: 24922432
+   MSRC56454_24922760: 24922760
+@@ -1747,6 +1745,7 @@
+   VisualCapture: 16458144
+   VisualCaptureAPI: 16976519
+   VoiceAssistantPositioner: 20484887
++  WCOSAppDefaults: 23869232
+   WCOSOverrideDeviceFamily: 21968130
+   WCOSPreInstalledAppsHide: 24674586
+   WDICheckOverride: 6931045
+@@ -1795,9 +1794,9 @@
+   DxgkrnlPrereleaseDiagnostic: 9011807
+   ExternalBrightnessSupport: 25507581
+   External_Adaptive_Color: 26085257
++  FailFastForHandlerIntializationFailure: 20477373
+   H264_DX12_VideoDecode: 13198365
+   H265_DX12_VideoDecode: 12790342
+-  HelloSplitViewAcrossDisplays: 20770583
+   Hub_DiagnosticMode: 10946770
+   Hub_FullDiagnostics: 25329309
+   Hub_FullscreenTap: 18582790
+@@ -1891,6 +1890,7 @@
+   AlwaysFailFastOnXamlFailure: 6487760
+   AppDefaultVersionForPolicy: 23954010
+   AppDefaultsSearch: 19400537
++  AtomicCheckFailure: 18815308
+   BTInboundPairingUI: 23402385
+   CaptureExplorerHydrationCallStacks: 14166282
+   CloudStoreDiagnostics: 6624442
+@@ -1931,6 +1931,7 @@
+   Hub_HideAutoGuests: 18815522
+   Hub_OOPWVMOTD: 15379026
+   Hub_Test_EnableStressLauncher: 19090473
++  HumanPresenceMonitor: 24360466
+   IncrementalRecycleBinEnumeration: 24087738
+   JumpListActivityHistoryIntegration: 18358352
+   LockApp_TestHooks_ShowWatermark_Development: 12340236
+@@ -2000,7 +2001,6 @@
+   ApplicationActivationWatcher: 21726163
+   ApplicationWindows_Wave2: 19235917
+   ApplicationWindows_Wave4: 24597231
+-  AtomicCheckFailure: 18815308
+   Audio_Drivers_Acx_AcxHdAudio: 13939327
+   Audio_Drivers_Acx_AcxHdAudioDisplayAudio: 19341900
+   Audio_Drivers_HdAudBus_Display_Multilink_Support: 17257098
+@@ -2203,7 +2203,6 @@
+   MSRC56913_25411769: 25411769
+   MSRC56930_25414176: 25414176
+   MSRC56933_26340645: 26340645
+-  MSRC56972_25430424: 25430424
+   MSRC56977_25433346: 25433346
+   MSRC57029_25534926: 25534926
+   MSRC57038_25504556: 25504556
+@@ -2351,7 +2350,6 @@
+   ViewHitTestDeprecation: 22962598
+   VoiceTypingCorrectionUXCandUIOnWCOS: 24698563
+   VoiceTypingCorrectionUXTextStylingOnWCOS: 24698548
+-  WCOSAppDefaults: 23869232
+   WIWHotkeyForScreenSketch: 9679557
+   WNS_Periodic_Update_Manager2: 23945364
+   WUCShapes: 11832104
