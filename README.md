@@ -5,7 +5,7 @@ Continuing past efforts at providing dumps of velocity features for Windows (mos
 - Windows Insider Dev Channel builds
 - Windows Insider Beta Channel builds
 
-as of December 2024.
+as of January 2025.
 Other builds/CUs may get feature lists but there is no promise of consistent uploads for builds that aren't listed above.
 
 A similar folder structure and file names to those seen in the original Mach2 repo, and the `diff` tool from UnxUtils to create the diff files, are used for familiarity.
