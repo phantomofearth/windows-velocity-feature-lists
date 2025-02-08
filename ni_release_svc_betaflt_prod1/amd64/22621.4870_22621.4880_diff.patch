@@ -1,0 +1,90 @@
+@@ -256,7 +256,6 @@
+   55210797: 55210797
+   55226240_TM_v08: 55226240
+   55315376: 55315376
+-  55326758: 55326758
+   55344896: 55344896
+   55346816: 55346816
+   55366860: 55366860
+@@ -324,6 +323,7 @@
+   ADC: 40642155
+   ADFSKDFContextV2: 31335338
+   AFTSB: 38185254
++  ALR: 51997565
+   ASIFF: 54694035
+   ATFOI_Test: 41066657
+   ATFOI_Test_V2: 46816931
+@@ -578,6 +578,7 @@
+   Census_CTAC_System_Requirements: 55214833
+   Census_CollectAllProcessorData: 50198379
+   Census_Increase_String_Cache_Retrieval_Size: 54899902
++  Census_Remove_EnableLogging: 51275296
+   Census_SpeechCortanaRemoval: 53523253
+   Census_Speech_Watson: 51759272
+   Census_TryCatchRemoval: 37367356
+@@ -1180,6 +1181,7 @@
+   FileExplorer_CommandBarFlyoutPerf: 54917906
+   FileExplorer_KnownFolderSyncProviderFix: 49520299
+   FileExplorer_UpdateTipTest_InitializePivotsTest: 53788541
++  FileExplorer_UpdateTipTest_SwitchPivotsPerfTest: 54070337
+   FindMyPenSubtitle: 54714397
+   FixActiveRuleId: 51020329
+   FixAttributeRefresh: 51195101
+@@ -1284,7 +1286,6 @@
+   HnsWcosLoopback: 23636350
+   HoloImmersiveShellExtensionPointOptional: 36499053
+   HolographicNotifications: 9666698
+-  HomepageCommercialSupport: 53281237
+   HotKeyTraceCollection: 19472739
+   HotkeyForSpeakforme: 49666413
+   HtmlLauncher: 19908852
+@@ -1935,7 +1936,6 @@
+   Servicing_FileExplorer_SessionWatcherLoggingQuieting: 54269993
+   Servicing_FileExplorer_SubCommandFix: 46535919
+   Servicing_FileExplorer_ThreadParamDoubleFree: 45335796
+-  Servicing_FileExplorer_XAMLIslandReparentingFix: 44781949
+   Servicing_FilterTargetedContentTiles: 44926793
+   Servicing_FilteringAppsForCopilotHWKey: 54074445
+   Servicing_FirstPartyGleamNotSetProperlyFix_48856196: 48856196
+@@ -2051,7 +2051,7 @@
+   Servicing_PreInstallUseInstallForAllUsers: 48611385
+   Servicing_PreSearchForPackages: 55181879
+   Servicing_PrestageVDLMarkCorrupt: 53479728
+-  Servicing_ProtectedCodecSwitch: 53078869
++  Servicing_ProtectedCodecSwitch: 0
+   Servicing_Qualcomm_Detection: 49774857
+   Servicing_RDGDeviceRedirection: 53079741
+   Servicing_RPCSSFirewallIntegration: 52087985
+@@ -2071,7 +2071,7 @@
+   Servicing_RemovingIndexerStatusCheck_46816958: 46816958
+   Servicing_RenamedGraphFiles_41601132: 41601132
+   Servicing_RepositionSelectedTabUsingKeyboard_53344668: 53344668
+-  Servicing_ResetAllocatorDXGIManagerNull: 47575023
++  Servicing_ResetAllocatorDXGIManagerNull: 0
+   Servicing_ResetFrameProcessorEvents: 44847329
+   Servicing_ResolveORInfo_NULLDereference: 51861073
+   Servicing_RevertSensorControllerOptimization: 44847343
+@@ -2095,7 +2095,6 @@
+   Servicing_SharedPCRetryMechanism: 42607764
+   Servicing_ShellConfigSuppressStartMenu: 53399534
+   Servicing_ShellPolicyException_46658044: 46658044
+-  Servicing_ShowCastInQuickActionsIfWFDSConMgrLoaded: 49701881
+   Servicing_SkipEnsureRegisterAppxAsSystem: 45535753
+   Servicing_SmartFeatureRollout: 42298043
+   Servicing_SmartInstallPSIInSMode: 53187243
+@@ -4051,6 +4050,7 @@
+   HAIPTest: 46968305
+   HDRWallpaper: 41135193
+   HololensSharePickerFix: 52558470
++  HomepageCommercialSupport: 53281237
+   ID45930103: 45930103
+   ID47229774: 47229774
+   ID47274802: 47274802
+@@ -4104,6 +4104,7 @@
+   SearchWebView2_Master: 43998308
+   Servicing_41643025: 41643025
+   Servicing_AppDefaults: 45113694
++  Servicing_FileExplorer_ProgressDialogNarratorFix: 50565903
+   Servicing_RetrieveCertPublisher_43838727: 43838727
+   SettingsPersonalizedOffers: 49666228
+   SharedPasskeyDependencies: 50627524
