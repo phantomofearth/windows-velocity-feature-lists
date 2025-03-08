@@ -1,0 +1,145 @@
+@@ -48,9 +48,11 @@
+   2767556921: 54027063
+   2772465979: 54660791
+   2780407096: 53817463
++  28041072: 28041072
+   2836505912: 53811828
+   2890766648: 54152565
+   2894624059: 54623413
++  29053843: 29053843
+   293630267: 54541978
+   296c6422c65c41698a17f05c6575b23f: 50619762
+   2984789305: 55387186
+@@ -426,6 +428,7 @@
+   AppInventory_NetworkPathFix: 50075202
+   AppIsolationSeparateSublayer: 6268226
+   AppLaunchDb: 37347557
++  AppReadinessFirewallTimeout: 38922639
+   AppResolverContextMenuPerfImprovements: 54013257
+   AppRestorePlaceholders: 41088358
+   AppRestorePlaceholdersWait: 43968183
+@@ -541,7 +544,6 @@
+   BugFix38048044_PreloadIssues: 38048044
+   BugFix41304415CherryPickNi: 41304415
+   BugFix43986681: 43986681
+-  BugFix45063291_AndOtherSmallFixes: 45063291
+   BugFix46650478_EmojiPanelWebViewDelayLoad: 46650478
+   BugFix49320135_CHSIME: 49320135
+   BugFix49925147: 49925147
+@@ -997,6 +999,7 @@
+   DL51875140: 51875140
+   DL51992796: 51992796
+   DL52433724: 52433724
++  DL52492825: 52492825
+   DL52526773: 52526773
+   DL54452090: 54452090
+   DL55030749: 55030749
+@@ -1119,7 +1122,6 @@
+   DockedFamilySettingsPageSV2: 35899634
+   DownloadAcceleratorMovesForegroundPermissions: 23415849
+   DownloadAssestsAsJpg: 47097649
+-  DragAndDropGlyphUpdates: 35688218
+   DualEngine_AllowF12: 23071760
+   DualEngine_ReliableClose: 21879352
+   DualEngine_SuppressUnneededZoomEvents: 29059948
+@@ -1363,7 +1365,6 @@
+   ID48930609: 48930609
+   ID49121850: 49121850
+   ID49527529: 49527529
+-  ID50287681: 50287681
+   ID51025379: 51025379
+   ID51373487: 51373487
+   ID52127539: 52127539
+@@ -1400,13 +1401,13 @@
+   InputDrivenEdgeAnimations: 36159954
+   InputDrivenGTGAnimations: 33668320
+   InputPanelPageSuspensionDeferralRelease: 36425940
+-  InputSettingsRestore: 41266411
+   InputSwitcher54754475: 54754475
+   InputSwitcherTipTestFix: 50302163
+   InputViewPersonalizationSV2: 33393602
+   InstallAttribution: 3222455
+   InstantQueuedLaunch: 28072593
+   InvSvc_CrmReleaseCrash: 54457625
++  InvSvc_GetAppInfoLocking: 56172704
+   InvSvc_Refresh: 53308193
+   Inventory_EDPTransition_API: 46448114
+   Inventory_GetAppInfo2_NoDelay: 51018233
+@@ -1589,7 +1590,6 @@
+   OOBEOneDriveShellExperience: 43121389
+   OSK_SecurityDllFix: 53081723
+   OSetupSCTest: 32798798
+-  OTPGTB: 38653309
+   ObfuscateDataFile: 31031347
+   OctagonBrokerEtw: 15724492
+   OctagonClientBase: 14263527
+@@ -1925,7 +1925,6 @@
+   Servicing_DuplicateLocalTicketReferenceFix: 54758580
+   Servicing_EDAMCSP_OrchestrationFixes: 55235086
+   Servicing_EdgeIndexerPerformanceFix_40127470: 40127470
+-  Servicing_EdgePinningWizardScenarioFix: 46043353
+   Servicing_EidNameResolution: 45870317
+   Servicing_EnableMSIEFTPDll_Telemetry: 54997663
+   Servicing_EnableStorageSense: 48747278
+@@ -2123,6 +2122,7 @@
+   Servicing_ScreensaverGDILeak: 49080498
+   Servicing_SearchEducationAnimatedIconThemeFix_55800030: 55800030
+   Servicing_SearchEducationAnimationTypingEventFix_55435574: 55435574
++  Servicing_SearchIconOnTabSwitch_56246293: 56246293
+   Servicing_SearchMultiSessionDeadlockFix: 45936933
+   Servicing_SearchUXHighContrastBorderFix_55802560: 55802560
+   Servicing_SearchUXIconNonIndexedLocationFix_55656186: 55656186
+@@ -2158,13 +2158,11 @@
+   Servicing_TaskbarIconConversionException: 53292757
+   Servicing_TaskbarInitializationTest: 54264929
+   Servicing_TaskbarInstallProgressUpdateCrash: 45667455
+-  Servicing_TaskbarLegacyTeardownCrash: 41836164
+   Servicing_TaskbarNarratorUnpinnedItem: 48226192
+   Servicing_TaskbarNoFocusAfterJumplistClose: 54764167
+   Servicing_TaskbarShiftClick_36479996: 36479996
+   Servicing_TaskbarShiftRightClickCrash_38343607: 38343607
+   Servicing_TaskbarSnapGroupMatchHwnd: 50783360
+-  Servicing_TaskbarSnapGroupOnItemResolved: 49344322
+   Servicing_TaskbarSnapGroupPendingItemList: 55284361
+   Servicing_TelSyntheticProductFix: 50674316
+   Servicing_TelemetryStringFixInPlaceholderCode: 53256044
+@@ -2180,6 +2178,7 @@
+   Servicing_USB4V2Settings: 46856478
+   Servicing_UnabandonFix: 52449790
+   Servicing_UnexpectedCopilotPWAInstallOnSkus: 51459758
++  Servicing_UninstallTencentEmulator: 56112312
+   Servicing_UnknownIconTipReportingFailure_42884810: 42884810
+   Servicing_UnstagedFilesRepair: 54603524
+   Servicing_UseMSGraphV1Endpoint_42131611: 42131611
+@@ -2313,6 +2312,7 @@
+   StaticIrisNavMesh: 36803303
+   StickerApp: 36321507
+   StopWebAppTipTestOnBackAction: 52733319
++  StopWebAppTipTestOnNavigationFailed: 55952497
+   StorageAPIsJsonObjectSupport: 49680014
+   StorageItemPrivacyChecks: 13848133
+   StorageLibraryFolderSuggestions: 9004739
+@@ -3631,6 +3631,7 @@
+   BioEnrollmentVerifyUser: 47455729
+   BlockedShutdownCancelFocusStyle: 45856030
+   BugFix46893211: 46893211
++  BugFix_54469418: 54469418
+   BugFix_54678501: 54678501
+   Bugfix_25385272: 25385272
+   Bugfix_41788447: 41788447
+@@ -4093,6 +4094,7 @@
+   AutoDismissLockTelemetry: 48697684
+   BugFix54906891: 54906891
+   Bugfix_12218768: 12218768
++  Bugfix_33306473: 33306473
+   Bugfix_43770709: 43770709
+   Bugfix_48036908: 48036908
+   Bugfix_54287744: 54287744
+@@ -4135,6 +4137,7 @@
+   ID47229774: 47229774
+   ID47526251: 47526251
+   ID52063793: 52063793
++  ID52500500: 52500500
+   ID53375151: 53375151
+   ID54131603: 54131603
+   ID54161711: 54161711
