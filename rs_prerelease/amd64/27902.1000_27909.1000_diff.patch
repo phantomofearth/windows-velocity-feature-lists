@@ -1,0 +1,157 @@
+@@ -783,6 +783,7 @@
+   Bugfix_FixAnqpBeaconParsing: 53481025
+   Bugfix_HostedNetworkMemoryLeak: 54376802
+   Bugfix_LLTD_TVS_Warning_26837: 55729475
++  Bugfix_NtlmNullSession: 54895480
+   Bugfix_PcaDeadlock: 54337110
+   Bugfix_PcaHeapCrash: 31237327
+   Bugfix_PcaUiCrash: 55365987
+@@ -828,6 +829,7 @@
+   CLIPRenewWSReset: 39842469
+   CLPTC: 53645597
+   CMDWarnOnAutorunFailure: 45178653
++  CM_OneClick: 57800637
+   COCI: 54897191
+   COCRB: 56807166
+   CQWF: 51906552
+@@ -1056,6 +1058,7 @@
+   D3D12GenericFeatureLevel: 44469984
+   D3D12GpuUploadHeaps: 40791818
+   D3D12IndependentDevices: 39847774
++  D3D12QueryApplicationDesc: 57777362
+   D3D12RenderPassPreserveLocal: 42517061
+   D3D12SingleAdapterHybridMode: 51742934
+   D3D12TiledResourceTier4: 49664295
+@@ -1128,7 +1131,6 @@
+   DebounceDeviceConnectSound: 34734680
+   DeclaredConfiguration_Allow_Custom_Endpoint_3rd_Party: 44700043
+   DeclaredConfiguration_BulkTemplate: 43981794
+-  DeclaredConfiguration_BulkTemplate_CheckSum: 48860261
+   DeclaredConfiguration_Desktop: 32303130
+   DeclaredConfiguration_DllRefactored: 46435723
+   DeclaredConfiguration_DriftControl: 43587418
+@@ -1159,6 +1161,7 @@
+   DependencyTest: 50203200
+   DeprecateCoreEditViewInputScope: 41082674
+   DeprecateRailV1DVC: 55331025
++  DesktopApps_OffByDefault: 57708093
+   DesktopReadyNotif: 44768719
+   DesktopSettingsBackupRestoreHandler: 45079713
+   DesktopSpotlight: 26008405
+@@ -1833,8 +1836,11 @@
+   MSAAddAccountWithTransferTokenFlow: 48259403
+   MSABadStateWnf: 44496455
+   MSRC83962_47973003: 47973003
++  MSRC88092: 51014480
++  MSRC88250: 51284012
+   MSRC88443: 51554451
+   MSRC88756: 51808928
++  MSRC89262: 52294409
+   MSRC95365: 56393632
+   MTPP: 56967045
+   MachineLockHangFix: 55170095
+@@ -2134,6 +2140,7 @@
+   PinWebsiteAction: 11790758
+   PinWebsiteActionV2: 16419964
+   PlatformFixesForFullTrustAndWin32Start: 49268249
++  PlayB_Express: 57896980
+   PlayB_FeatureUpdates: 51839127
+   PlayB_ModelInstallation: 51839079
+   PlayB_UUP_UALite_ResetOnLoop: 57053772
+@@ -2142,6 +2149,7 @@
+   PnpDiag_ExportDriverStoreFileInfo: 52121811
+   PnpSysprep_InstallType: 54697338
+   PnpUtil_EnumCatalogAttributes: 55755652
++  PoAdaptiveStandby: 49614451
+   PolicyCacheRefreshTelemetryWSUSHash: 51602840
+   PostSV2Improvements: 43912504
+   PowerRequestRedirection: 0
+@@ -2583,6 +2591,7 @@
+   Servicing_GpChangeTimeMetadata: 49705690
+   Servicing_GpRebootless: 49915661
+   Servicing_GraphicsSettings_CorruptionFixes: 54462748
++  Servicing_GroupPolicyModelingAccessDenied: 56653344
+   Servicing_HTMLHELP_UI_Fix: 0
+   Servicing_HandleShellPolicyExceptions: 46245958
+   Servicing_HibernateIdleSettings: 50734189
+@@ -3279,6 +3288,7 @@
+   WFDiagnosticTracing: 16585608
+   WGCCaptureEngine: 57653548
+   WHFGA: 36911352
++  WIP_TurnOffDesktopApps: 57855809
+   WISEBatteryDischargeTimeEstimate: 26606149
+   WISERemoveTIPCompletionReq: 54319670
+   WISE_ForegroundHelperFix: 55095770
+@@ -4044,7 +4054,6 @@
+   MSRC86204_49303211: 49303211
+   MSRC86483_49494600: 49494600
+   MSRC86490_50103439: 50103439
+-  MSRC86578_49579032: 49579032
+   MSRC86581_49800706: 49800706
+   MSRC86644_50071840: 50071840
+   MSRC86767_49686646: 49686646
+@@ -4081,7 +4090,6 @@
+   MSRC87836_50631908: 50631908
+   MSRC87850_50651792: 50651792
+   MSRC87855_51752385: 51752385
+-  MSRC87906_50722903: 50722903
+   MSRC88029_50951990: 50951990
+   MSRC88127_51092541: 51092541
+   MSRC88132_51092846: 51092846
+@@ -4109,7 +4117,6 @@
+   MSRC89030_52044645: 52044645
+   MSRC89217_52265617: 52265617
+   MSRC89321_52324442: 52324442
+-  MSRC89328_52325816: 52325816
+   MSRC89332_52326029: 52326029
+   MSRC89348_52408989: 52408989
+   MSRC89363_52412383: 52412383
+@@ -4180,7 +4187,6 @@
+   MSRC92430_55089522: 55089522
+   MSRC92527_54963064: 54963064
+   MSRC92894_55187075: 55187075
+-  MSRC93165_55361153: 55361153
+   MSRC93217_55379284: 55379284
+   MSRC93228_55383329: 55383329
+   MSRC93237_55385402: 55385402
+@@ -4218,7 +4224,6 @@
+   MSRC94595_56007620: 56007620
+   MSRC94613_56018496: 56018496
+   MSRC94656_56034470: 56034470
+-  MSRC94672_56047056: 56047056
+   MSRC94681_56049256: 56049256
+   MSRC94684_56049381: 56049381
+   MSRC94693_56050158: 56050158
+@@ -4933,6 +4938,7 @@
+   AcknowledgeReceiptOnLoad: 43200402
+   AddCmpltReasonToHpdTipTest: 54319669
+   AddCollectionFlagsToAllowOneAfcCallOnCollectionEnum: 54015885
++  AddColorProfileWithChineseCharacterExtension: 56802140
+   AddEditBufferSelectionTipTests: 54823862
+   AddPreRegisterInfoToRegistryAndReportFromAddDependencyToProcessPackageGraph: 57451871
+   AddQrCodeAccessibilityText: 57170623
+@@ -4955,6 +4961,7 @@
+   AppReadinessCheckSrUser: 54482854
+   AppReadinessFirewallTimeout: 38922639
+   AppSiloActivationOverride: 50292181
++  AppSiloScanner: 54873069
+   AppxPackagingCoCreate: 54630891
+   AsyncMFTWrapper_FormatChangeLostOnFlush: 54851118
+   AutoRotation_PreserveContentResolutionOnPrimaryClonePath: 57374666
+@@ -5150,6 +5157,7 @@
+   DxgkrnlPrereleaseDiagnostic: 9011807
+   EBBCG: 51950537
+   ECU532: 55590532
++  EDRFromEnableHDRForPlayback: 56947771
+   EIMFileExplorerAsyncDelete: 44469705
+   EOLCorrectlyInMigrationPlugin: 49290629
+   ESB54199015: 54199015
+@@ -5861,6 +5869,8 @@
+   GraphicsCardInAbout: 27974039
+   HEVCEnc_CodecPack_Enumerate_First: 48435339
+   HWDRMByDefault: 52559209
++  HdrBrightnessPolicy: 46377795
++  HdrBrightnessPolicy_SupportCustom: 48566410
+   Home_YourDevice_ConsumerCard: 53343270
+   HpdOd: 43228725
+   HpdOdApi: 50460138
